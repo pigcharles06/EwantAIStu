@@ -30,7 +30,7 @@
             "newChatDialog": {
                 "createNewChat": "建立新對話？",
                 "clearChat": "這將清除目前的訊息並開始新的對話。",
-                "cancel": "取",
+                "cancel": "取消",
                 "confirm": "確認"
             },
             "settingsModal": {
@@ -74,4 +74,4 @@
             }
         }
     }
-} 
+}
