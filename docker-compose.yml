@@ -1,0 +1,12 @@
+version: '3'
+services:
+  chainlit-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CHAINLIT_AUTH_SECRET=${CHAINLIT_AUTH_SECRET}
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./users.db:/app/users.db 
