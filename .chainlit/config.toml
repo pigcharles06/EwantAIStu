@@ -1,6 +1,5 @@
 [project]
 enable_telemetry = true
-user_env = []
 
 [UI]
 name = "AI教學助手"
