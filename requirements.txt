@@ -1,4 +1,4 @@
-chainlit
+﻿chainlit
 openai
 python-dotenv
 langchain
