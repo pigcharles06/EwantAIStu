@@ -1,4 +1,8 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
 [deploy]
-startCommand = "chainlit run app.py --port $PORT"
 healthcheckPath = "/"
-healthcheckTimeout = 100 
+healthcheckTimeout = 100
+restartPolicyType = "ON_FAILURE"
