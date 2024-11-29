@@ -1,0 +1,44 @@
+[project]
+enable_telemetry = true
+user_env = []
+session_timeout = 3600
+cache = false
+allow_origins = ["*"]
+
+[UI]
+name = "AI教學助手"
+default_collapse_content = true
+cot = "full"
+language = "zh-TW"
+custom_js = "/public/custom.js"
+
+[auth]
+type = "credentials"
+enabled = true
+require_auth = true
+allow_registration = true
+providers = []
+registration_title = "註冊新帳號"
+registration_button_text = "註冊"
+registration_email_label = "電子郵件"
+registration_password_label = "密碼"
+login_title = "登入系統"
+login_button_text = "登入"
+login_email_label = "電子郵件"
+login_password_label = "密碼"
+
+[features]
+unsafe_allow_html = true
+latex = false
+auto_tag_thread = true
+edit_message = true
+serve_static_files = true
+
+[features.spontaneous_file_upload]
+enabled = true
+accept = ["*/*"]
+max_files = 20
+max_size_mb = 500
+
+[meta]
+generated_by = "1.3.2"

@@ -1,0 +1,77 @@
+{
+    "components": {
+        "atoms": {
+            "buttons": {
+                "userButton": {
+                    "menu": {
+                        "settings": "設定",
+                        "settingsKey": "S",
+                        "APIKeys": "API 金鑰",
+                        "logout": "登出"
+                    }
+                }
+            }
+        },
+        "molecules": {
+            "newChatButton": {
+                "newChat": "新對話"
+            },
+            "tasklist": {
+                "TaskList": {
+                    "title": "📒️ 任務列表",
+                    "loading": "載入中...",
+                    "error": "發生錯誤"
+                }
+            },
+            "attachments": {
+                "cancelUpload": "取消上傳",
+                "removeAttachment": "移除附件"
+            },
+            "newChatDialog": {
+                "createNewChat": "建立新對話？",
+                "clearChat": "這將清除目前的訊息並開始新的對話。",
+                "cancel": "取",
+                "confirm": "確認"
+            },
+            "settingsModal": {
+                "settings": "設定",
+                "expandMessages": "展開訊息",
+                "hideChainOfThought": "隱藏思考鏈",
+                "darkMode": "深色模式"
+            },
+            "detailsButton": {
+                "using": "使用中",
+                "used": "已使用"
+            },
+            "auth": {
+                "authLogin": {
+                    "title": "登入系統",
+                    "form": {
+                        "email": "電子郵件",
+                        "password": "密碼",
+                        "noAccount": "還沒有帳號？",
+                        "signup": "點此註冊",
+                        "signin": "登入",
+                        "continue": "繼續"
+                    },
+                    "footer": "還沒有帳號？[點此註冊](/register)"
+                },
+                "authRegister": {
+                    "title": "註冊新帳號",
+                    "form": {
+                        "email": "電子郵件",
+                        "password": "密碼",
+                        "signup": "註冊",
+                        "alreadyHaveAccount": "已經有帳號？",
+                        "signin": "登入"
+                    },
+                    "footer": "已經有帳號？[點此登入](/login)"
+                },
+                "noAccount": "還沒有帳號？",
+                "register": "點此註冊",
+                "login": "登入",
+                "signup": "註冊"
+            }
+        }
+    }
+} 

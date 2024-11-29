@@ -1,0 +1,8 @@
+chainlit
+openai
+python-dotenv
+langchain
+langchain-openai
+chromadb
+firebase-admin
+gunicorn

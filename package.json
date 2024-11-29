@@ -1,0 +1,18 @@
+{
+  "name": "ewantaistu",
+  "version": "1.0.0",
+  "description": "這是一個基於 Chainlit 和 OpenAI 開發的智能教育輔助系統，提供 AI 助教和虛擬學生功能。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlit/react-client": "^0.2.0",
+    "firebase": "^11.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
