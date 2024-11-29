@@ -123,15 +123,6 @@ async def start():
 
     await cl.Message(welcome_message).send()
 
-@cl.on_settings_update
-async def setup_agent(settings):
-    if settings.get("mode") == "register":
-        cl.user_session.set("register_mode", True)
-        await cl.Message("請輸入您的電子郵件和密碼來註冊新帳號。").send()
-    else:
-        cl.user_session.set("register_mode", False)
-        await cl.Message("請輸入您的電子郵件和密碼來登入。").send()
-
 # 檢查 API 密鑰
 if not os.getenv("OPENAI_API_KEY"):
     raise ValueError("請在 .env 文件中設置 OPENAI_API_KEY")
