@@ -131,7 +131,8 @@ try:
     # 初始化 OpenAI
     embeddings = OpenAIEmbeddings(
         model="text-embedding-ada-002",
-        openai_api_key=os.getenv("OPENAI_API_KEY")
+        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        disallowed_special=()
     )
     
     # 初始化 ChatGPT 模型
